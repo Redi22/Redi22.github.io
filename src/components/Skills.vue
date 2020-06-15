@@ -2,10 +2,10 @@
   <div>
     <p class="titleText">What can I help You with?</p>
     <v-row class="ma-12">
-      <v-expansion-panels>
+      <v-expansion-panels dark>
         <v-col cols="6">
           <v-card dark>
-            <v-expansion-panel>
+            <v-expansion-panel v-model="panel">
               <v-expansion-panel-header>Item</v-expansion-panel-header>
               <v-expansion-panel-content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-expansion-panel-content>
             </v-expansion-panel>
@@ -46,3 +46,12 @@
   margin-left: 30px;
 }
 </style>
+<script>
+export default {
+  data() {
+    return {
+      panel: 0
+    };
+  }
+};
+</script>
