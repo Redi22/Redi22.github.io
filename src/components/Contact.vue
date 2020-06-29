@@ -18,7 +18,10 @@
 export default {
   data() {
     return {
-      email: ""
+      email: "",
+      name: "",
+      subject: "",
+      message: ""
     };
   }
 };

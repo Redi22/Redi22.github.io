@@ -13,7 +13,7 @@
             <p class="names">Location:</p>
           </v-col>
           <v-col>
-            <p class="normalText">Addis Ababa</p>
+            <p class="normalText">Addis Abab , Ethiopia</p>
           </v-col>
         </v-row>
         <v-row>

@@ -6,7 +6,7 @@
           <v-list-item class="px-2"></v-list-item>
 
           <div class="px-2">
-            <v-img class="mx-12" src="./assets/Final LOGO.png"></v-img>
+            <v-img class="mx-12" src="./assets/logo.png"></v-img>
             <v-list-item-title class="title">REDIET DEMISSE</v-list-item-title>
             <v-list-item-subtitle>redidemisse22@gmail.com</v-list-item-subtitle>
           </div>
@@ -58,7 +58,12 @@
         <Greeting />
         <Skills />
         <Education />
+        <v-row>
+          <v-spacer />
+          <!-- <v-img src="./assets/download.jpg"></v-img> -->
+        </v-row>
         <Contact />
+        
       </v-content>
     </div>
   </v-app>
@@ -69,7 +74,6 @@ import Greeting from "@/components/Greeting.vue";
 import Skills from "@/components/Skills.vue";
 import Education from "@/components/Education.vue";
 import Contact from "@/components/Contact.vue";
-
 export default {
   name: "App",
   components: {

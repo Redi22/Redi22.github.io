@@ -12,7 +12,7 @@
           </v-col>
           <v-col>
             <v-rating
-              value="2"
+              :value="rate"
               readonly
               color="primary"
               empty-icon="mdi-circle-outline"
@@ -28,7 +28,7 @@
           </v-col>
           <v-col>
             <v-rating
-              value="2"
+              :value="rate"
               readonly
               size="20"
               color="primary"
@@ -44,7 +44,7 @@
           </v-col>
           <v-col>
             <v-rating
-              value="2"
+              :value="rate"
               size="20"
               readonly
               color="primary"
@@ -62,7 +62,7 @@
           </v-col>
           <v-col>
             <v-rating
-              value="2"
+              :value="rate"
               size="20"
               readonly
               color="primary"
@@ -80,7 +80,7 @@
           </v-col>
           <v-col>
             <v-rating
-              value="2"
+              :value="rate"
               size="20"
               readonly
               color="primary"
@@ -112,7 +112,7 @@
           </v-col>
           <v-col>
             <v-rating
-              value="2"
+              :value="rate"
               size="20"
               readonly
               color="primary"
@@ -128,7 +128,7 @@
           </v-col>
           <v-col>
             <v-rating
-              value="2"
+              :value="rate"
               size="20"
               readonly
               color="primary"
@@ -149,3 +149,12 @@
   margin-left: 30px;
 }
 </style>
+<script>
+export default {
+  data() {
+    return {
+      rate: 2
+    };
+  }
+};
+</script>
